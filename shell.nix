@@ -4,9 +4,9 @@ let
 in
 pkgs.mkShell {
   nativeBuildInputs = with pkgs; [
+    corepack
     git
     nodejs
-    nodejs.pkgs.pnpm
   ];
 
   # Libraries
